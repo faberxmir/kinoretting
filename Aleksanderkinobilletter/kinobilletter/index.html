@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title >biletter </title>
+</head>
+
+<body>
+                <h1>Kjøp film Billett</h1>
+            <div class="valg">
+                <p>Velg en film</p>
+                <select onchange="filmvalg()">
+                   
+                    <option> </option>
+                    <option class="filmer"> Lord of the rings</option>
+                    <option class="filmer"> Star wars</option>
+                    <option class="filmer"> The dictator</option>
+                    <option class="filmer"> Batman</option>
+
+                </select>
+            </div>
+                                <p class="allebilletter">kjøpte billetter</p>
+                                
+                                <p class="info"> Antall </p>    
+                                <input class="inputfrabruker"></input> <label class="feilmelding"> </label> <br><br>
+                                <p class="info"> Fornavn </p> 
+                                <input class="inputfrabruker"> </input> <label class="feilmelding"> </label> <br><br>
+                                <p class="info"> Etternavn </p> 
+                                <input class="inputfrabruker"> </input> <label class="feilmelding"> </label>
+                                <br><br>
+                                <p class="info"> Tlfnummer </p> 
+                                <input class="inputfrabruker"> </input> <label class="feilmelding"> </label>
+                                <br><br>
+                                <p class="info"> Email </p> <input class="inputfrabruker"> </input> <label class="feilmelding"> </label> <br><br>
+                        
+                        
+                        <div id="konfirmert">
+                        
+                            <label class="kjøp"> Du har ikke kjøpt noe </label> <br> <br>
+                            <div id="konstabel"></div>
+                    </div>
+                    <button onclick="hovedfunksjon()" id="Billett">Kjøp billet</button>
+                    <button onclick="tøm()"> Tøm </button>
+                    <script src="system.js"> </script>
+                    <label id="bekreftmelding"> </label>                        
+
+        <footer>
+            <h1> NF KINO</h1>
+        </footer>
+</body>
+
+</html>

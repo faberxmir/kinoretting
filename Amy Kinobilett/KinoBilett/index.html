@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href ="css/style.css">
+        <title> Cinema</title>
+    </head>
+    <body>
+            <h1> Movie Sale</h1> 
+            <div class ="body2"> <label> Films this evening</label> 
+            <form>
+                <select required name= "film" id ="film" > 
+                    <option value="" disabled selected>-Choose film-</option>
+                    <option > This </option>
+                    <option > Is </option>
+                    <option > A </option>
+                    <option > Film</option>
+                </select>
+                </div>
+                <input required type="number" aria-label="Quantity" placeholder="Quantity" id="quantity" name="quantity" >
+                <br>
+                <input required type= "text" aria-label="Forename" placeholder="Forename" id="forename" name="forename" >
+                <br>
+                <input required type="text" aria-label="Surname" placeholder="Surname" id="surname" name="surname">
+                <br>
+                <input required type="number" aria-label="Phone" placeholder="Phone" id="phone" name="phone">
+                <br>
+                <input required type= "email" aria-label="E-mail" placeholder="E-mail" id="email" name="email">
+                <br>
+                
+                <button type="submit" > Buy </button>
+                <button type="button" class="delete">Delete order</button>
+            </form>
+            
+                <table>
+                    <tr>
+                        <th>Tickets</th>
+                        <th> </th>
+                        
+                    </tr>
+                    <tbody id="tableShit"></tbody>
+                </table>
+            
+           
+        <script src = "script/script.js"></script>
+    </body>
+</html>

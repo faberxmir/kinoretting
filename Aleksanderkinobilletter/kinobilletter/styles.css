@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(126, 221, 221);
+    margin:0;
+    padding:0;
+}
+
+h1{
+    font-size: 50pt;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+#konfirmert{
+    margin-left: 400px;
+}
+
+.valg{
+    margin-left: 33%;
+}
+
+
+
+.info{
+    position: relative;
+    font-size: 20pt;
+    margin-left:400px;
+}
+
+.kjøp{
+    font-size: 20pt;
+    
+}
+
+.inputfrabruker{
+   margin-left:400px;
+}
+
+footer{
+    display: block;
+    padding:50px;
+    background-color: grey;
+    height:80px;
+    margin-top:200px ;
+    font-size: 30pt;
+    color:white;
+    
+ 
+}
+
+input{
+    
+    border-style: inset;
+    border-width:4px;
+    border-color:white;
+}
+
+
+.background{
+    background-color: rgb(117, 230, 106);
+       
+    display:block;
+    padding:50px;
+    width:200px;
+    margin:auto;
+    border-style: solid;
+    border-color: gray;
+    border-width:2px ;
+}
+
+
+
+.allebilletter{
+  margin-left: 1000px;
+  font-size: 20pt;
+}
+
+button{
+    margin-left:1200px;
+}

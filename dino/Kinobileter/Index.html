@@ -1,0 +1,59 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/Master.css">
+    <title>Kino</title>
+</head>
+
+<body>
+    <div class=containor>
+
+        <form>
+            <h1>Bestilling av billeter</h1>
+            <h3>Velg en film</h3>
+            <select id=mySelector> 
+        <option value="Never">Never</option>
+        <option value="Gonna">Gonna</option>
+        <option value="Give">Give</option>
+        <option value="You">You</option>
+        <option value="Up">Up</option>
+        </select>
+
+            <h3>Antall</h3>
+            <input id=antall type="number" placeholder="1-25" min="0" max="25" required>
+            <p id="antallP"></p>
+
+            <h3>Fornavn</h3>
+            <input id=fornavn type="text" placeholder="Johan" minlength="2" maxlength="15" required>
+            <p id="fornavnP"></p>
+
+            <h3>etternavn</h3>
+            <input id=etternavn type="text" placeholder="Sebastian" minlength="2" maxlength="15" required>
+            <p id="etternavnP"></p>
+
+            <h3>Tlf</h3>
+            <input id=tlf type="number" placeholder="12300456" minlength="8" maxlength="8" pattern="[0-9].*" required>
+            <p id="numberP"></p>
+
+            <h3>Epost</h3>
+            <input id=epost type="email" placeholder=Johan@gmail.com required>
+            <p id="epostP"></p>
+
+
+            <button type="submit" onclick="kjøp(); ">Kjøp bileter</button>
+            <button onclick="fjern(); ">Fjern bileter</button>
+
+        </form>
+
+        <div class="ticket">
+            <div id=demo2></div>
+            <div id=demo></div>
+        </div>
+    </div>
+</body>
+<script src="Scripts/Script.js"></script>
+
+</html>
